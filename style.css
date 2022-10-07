@@ -78,7 +78,8 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-typography-typeface: "Inter", sans-serif;
+  --ui-typography-typeface: "Lora", sans-serif;
+  --ui2-typography-typeface: "Parisienne", sans-serif;
 
   /* FONT SIZE */
 
@@ -175,8 +176,10 @@ h1,
 h2 { margin-bottom: var(--ui-typography-margin-heading); }
 
 h1 {
-  font-size: var(--ui-typography-h1);
+  font-size: 5rem;
   line-height: var(--ui-typography-h1-leading);
+  font-family: var(--ui2-typography-typeface);
+  font-feature-settings: "liga", "kern";
 }
 
 h2 {
