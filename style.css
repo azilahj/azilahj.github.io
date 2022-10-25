@@ -192,6 +192,17 @@ h4 {
   line-height: var(--ui-typography-h4-leading);
 }
 
+h5 {
+	font-size: 8rem;
+	line-height: 1.5;
+	margin: 0.05rem;
+	padding: 0.5rem;
+	font-family: var(--ui2-typography-typeface);
+	background-image: url('text.jpg');
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 p,
 ul { margin-bottom: var(--ui-typography-margin-body); }
 
