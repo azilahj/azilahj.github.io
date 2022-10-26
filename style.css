@@ -201,6 +201,16 @@ h5 {
 	background-image: url('text.jpg');
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	animation-name: flashtitle;
+	animation-duration: 60s;
+}
+
+@keyframes flashtitle {
+  0%   {opacity: 100%;}
+  25%  {opacity: 50%;}
+  50%  {opacity: 100%;}
+  75%  {opacity: 50%;}
+  100% {opacity: 100%;}
 }
 
 p,
